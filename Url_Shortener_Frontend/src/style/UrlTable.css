@@ -1,0 +1,50 @@
+.table-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.table-label {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.url-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.url-th {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: #aaa;
+}
+
+.url-td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.url-link {
+  color: white;
+  text-decoration: none;
+}
+
+.url-link:hover {
+  text-decoration: underline;
+}
+
+.url-link-short {
+  color: #e50914;
+  text-decoration: none;
+}
+
+.url-link-short:hover {
+  text-decoration: underline;
+}
+
+.empty-text {
+  color: #888;
+}

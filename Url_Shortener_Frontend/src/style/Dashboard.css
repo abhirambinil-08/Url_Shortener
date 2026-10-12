@@ -1,0 +1,32 @@
+.dashboard-container {
+  min-height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8));
+  color: white;
+  padding: 40px 80px;
+}
+
+.dashboard-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+}
+
+.log-out-btn {
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.log-out-btn:hover {
+  background-color: #c40812;
+}
+.dashboard-heading {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}

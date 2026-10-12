@@ -1,0 +1,82 @@
+.table-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.table-label {
+  font-size: 1.1rem;
+  margin-bottom: 0;
+}
+
+.refresh-btn {
+  padding: 8px 16px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.3s;
+}
+
+.refresh-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.url-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.url-th {
+  text-align: left;
+  padding: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  color: #aaa;
+}
+
+.url-td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.url-link {
+  color: white;
+  text-decoration: none;
+}
+
+.url-link:hover {
+  text-decoration: underline;
+}
+
+.url-link-short {
+  color: #e50914;
+  text-decoration: none;
+}
+
+.url-link-short:hover {
+  text-decoration: underline;
+}
+
+.empty-text {
+  color: #888;
+}
+.url-td-btn {
+  padding: 10px 20px;
+  background-color: #e50914;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
